@@ -13,4 +13,9 @@ class UseDatabase:
         self.conn.commit()
         self.cursor.close()
         self.conn.close()
+        
+     def __pop__(self)->:
+        self.conn=mysql.connector.connect(**self.configuration)
+        self.next=self.conn.data()
+        return self.data
 
