@@ -40,9 +40,12 @@ td, th {
   font-size:        75%;
   font-style:       italic;
 }
-.confirmentry {
-  font-weight:      600;
+
+.footer_padding{
+padding:6.5px;
+color:#4287f5
 }
+
 
 /*** Tables ***/
 
